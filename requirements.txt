@@ -1,0 +1,4 @@
+aiohttp
+disnake
+python-dotenv
+colorlog
