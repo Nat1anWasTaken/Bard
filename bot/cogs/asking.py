@@ -97,7 +97,7 @@ class Asking(Cog):
 
         await message.channel.trigger_typing()
 
-        parsed_message = message.content.replace(self.bot.user.mention, "")
+        parsed_message = message.content.replace(self.bot.user.mention, "").strip()
 
         await self.bot.bard.ask(parsed_message)
 
