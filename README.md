@@ -4,6 +4,10 @@ Google Bard, but on Discord.
 
 The reverse engineering is modified from [acheong08/Bard](https://github.com/acheong08/Bard), added async features.
 
+## Screenshot
+
+![screenshot.png](img/screenshot.png)
+
 ## Usage
 
 You need to install Python 3.10+ first.
