@@ -2,7 +2,7 @@
 
 Google Bard, but on Discord.
 
-The reverse engineering is modified from [acheong08/Bard](https://github.com/acheong08/Bard), added async features.
+The reverse engineering is based on [acheong08/Bard](https://github.com/acheong08/Bard). Thanks acheong08 for creating this.
 
 ## Screenshot
 
