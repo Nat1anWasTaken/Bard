@@ -21,15 +21,18 @@ def render(response: Response) -> dict:
             Button(
                 label="Google it",
                 custom_id="google_it",
-                style=ButtonStyle.gray
+                style=ButtonStyle.gray,
+                emoji="<:google:1104043088005050559>"
             ),
             Button(
                 label="Reset conversation",
                 custom_id="reset_conversation",
-                style=ButtonStyle.gray
+                style=ButtonStyle.gray,
+                emoji="<:reset:1104043528335659059>"
             ),
             StringSelect(
                 custom_id="choice",
+                placeholder="View other drafts",
                 options=[
                     SelectOption(
                         label=f"Option {i + 1}",
